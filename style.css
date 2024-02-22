@@ -33,17 +33,17 @@ body {
     }
 
     #reset {
-        background-color: gold;
+        background-color: goldenrod;
         width: 135px;
         height: 60px;
         border-radius: 5px;
         border: none;
         font-size: 18px;
-        font-weight: 100;
+        font-weight: bold;
     }
 
     #reset:active {
-        background-color: goldenrod;
+        background-color: rgb(187, 142, 26);
     }
 
     .btnsDiv {
@@ -63,7 +63,7 @@ body {
         color: white;
         border: none;
         font-size: 18px;
-        font-weight: 200;
+        font-weight: bold;
     }
 
     #screenMode:active {
@@ -124,17 +124,17 @@ body {
     }
 
     #reset {
-        background-color: gold;
+        background-color: goldenrod;
         width: 160px;
         height: 70px;
         border-radius: 5px;
         border: none;
         font-size: 18px;
-        font-weight: 100;
+        font-weight: bold;
     }
 
     #reset:active {
-        background-color: goldenrod;
+        background-color: rgb(187, 142, 26);
     }
 
     .btnsDiv {
@@ -154,7 +154,7 @@ body {
         color: white;
         border: none;
         font-size: 18px;
-        font-weight: 200;
+        font-weight: bold;
     }
 
     #screenMode:active {
@@ -215,17 +215,17 @@ body {
     }
 
     #reset {
-        background-color: gold;
+        background-color: goldenrod;
         width: 185px;
         height: 50px;
         border-radius: 5px;
         border: none;
         font-size: 18px;
-        font-weight: 100;
+        font-weight: bold;
     }
 
     #reset:hover {
-        background-color: goldenrod;
+        background-color: rgb(187, 142, 26);
     }
 
     #screenMode {
