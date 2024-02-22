@@ -1,0 +1,286 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Display on mobile */
+@media (max-width: 768px) {
+    #heading {
+        font-size: 50px;
+        font-family: 'varela round';
+        position: relative;
+        bottom: 80px;
+    }
+
+    .winner {
+        display: flex;
+        justify-content: center;
+    }
+
+    .winner>p {
+        position: relative;
+        bottom: 90px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    #reset {
+        background-color: goldenrod;
+        width: 135px;
+        height: 60px;
+        border-radius: 5px;
+        border: none;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    #reset:active {
+        background-color: rgb(187, 142, 26);
+    }
+
+    .btnsDiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        position: relative;
+        bottom: 75px;
+    }
+
+    #screenMode {
+        background-color: rgb(46, 46, 46);
+        width: 135px;
+        height: 60px;
+        border-radius: 5px;
+        color: white;
+        border: none;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    #screenMode:active {
+        background-color: darkslategray;
+        color: white;
+    }
+
+    .ticTacToe {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 300px;
+        background-color: white;
+        box-shadow: 5px 5px 7px 2px rgba(0, 0, 0, 0.4);
+    }
+
+    table,
+    tr,
+    td {
+        border: 5px solid black;
+        border-collapse: collapse;
+
+    }
+
+    td {
+        vertical-align: middle;
+        width: 250px;
+        height: 95px;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    td:active {
+        background-color: goldenrod;
+    }
+}
+
+/* Display on Tablets */
+@media (min-width: 769px) {
+    #heading {
+        font-size: 50px;
+        font-family: 'varela round';
+        position: relative;
+        bottom: 80px;
+    }
+
+    .winner {
+        display: flex;
+        justify-content: center;
+    }
+
+    .winner>p {
+        position: relative;
+        bottom: 95px;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    #reset {
+        background-color: goldenrod;
+        width: 160px;
+        height: 70px;
+        border-radius: 5px;
+        border: none;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    #reset:active {
+        background-color: rgb(187, 142, 26);
+    }
+
+    .btnsDiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        position: relative;
+        bottom: 75px;
+    }
+
+    #screenMode {
+        background-color: rgb(46, 46, 46);
+        width: 160px;
+        height: 70px;
+        border-radius: 5px;
+        color: white;
+        border: none;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    #screenMode:active {
+        background-color: darkslategray;
+        color: white;
+    }
+
+    .ticTacToe {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        height: 350px;
+        background-color: white;
+        box-shadow: 5px 5px 7px 2px rgba(0, 0, 0, 0.4);
+    }
+
+    table,
+    tr,
+    td {
+        border: 5px solid black;
+        border-collapse: collapse;
+
+    }
+
+    td {
+        vertical-align: middle;
+        width: 250px;
+        height: 110px;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    td:active {
+        background-color: goldenrod;
+    }
+}
+
+/* Display on desktop */
+@media (min-width: 1200px) {
+    #heading {
+        font-size: 60px;
+        font-family: 'varela round';
+        position: relative;
+        bottom: 70px;
+    }
+
+    .winner {
+        display: flex;
+        justify-content: center;
+    }
+
+    .winner>p {
+        position: absolute;
+        bottom: 420px;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    #reset {
+        background-color: goldenrod;
+        width: 185px;
+        height: 50px;
+        border-radius: 5px;
+        border: none;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    #reset:hover {
+        background-color: rgb(187, 142, 26);
+    }
+
+    #screenMode {
+        background-color: rgb(46, 46, 46);
+        width: 185px;
+        height: 50px;
+        border-radius: 5px;
+        color: white;
+        border: none;
+        font-size: large;
+    }
+
+    #screenMode:hover {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+    }
+
+    .btnsDiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        position: relative;
+        bottom: 75px;
+    }
+
+    .ticTacToe {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        height: 400px;
+        background-color: white;
+        box-shadow: 5px 5px 7px 2px rgba(0, 0, 0, 0.4);
+    }
+
+    table,
+    tr,
+    td {
+        border: 5px solid black;
+        border-collapse: collapse;
+
+    }
+
+    td {
+        vertical-align: middle;
+        width: 300px;
+        height: 125px;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    td:hover {
+        cursor: pointer;
+        background-color: seashell;
+    }
+}
