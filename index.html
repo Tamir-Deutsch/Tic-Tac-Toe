@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tic-Tac-Toe</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+
+<body>
+    <h1 id="heading">Tic-Tac-T⭕e</h1>
+    <p id="orientationMessage" style="display: none;">Rotate your device</p>
+    <img src="/screenRotation.png" style="display: none;">
+    <div class="winner">
+        <p id="feedback"></p>
+    </div>
+    <div class="btnsDiv">
+        <button id="reset" onclick="reset()">Reset 🔁</button>
+        <button id="screenMode" onclick="changeBgColor()">Dark Mode 🌛</button>
+    </div>
+    <div class="ticTacToe">
+        <table>
+            <tbody>
+                <tr>
+                    <td class="btn"></td>
+                    <td class="btn"></td>
+                    <td class="btn"></td>
+                </tr>
+                <tr>
+                    <td class="btn"></td>
+                    <td class="btn"></td>
+                    <td class="btn"></td>
+                </tr>
+                <tr>
+                    <td class="btn"></td>
+                    <td class="btn"></td>
+                    <td class="btn"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src='script.js'></script>
+</body>
+
+</html>
